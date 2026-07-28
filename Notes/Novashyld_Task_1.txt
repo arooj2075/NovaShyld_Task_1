@@ -1,0 +1,77 @@
+Novashyld_Task_1
+
+CIA Triad
+
+CIA Triad – Cybersecurity Fundamentals
+
+1. Confidentiality
+   Ensures information is only accessed by authorized users.
+   Protects sensitive data from exposure or theft.
+   - Methods: passwords, encryption, access control, MFA.
+   - Example: Preventing unauthorized access to customer records.
+
+2. Integrity
+   Ensures data remains accurate, complete, and unaltered.
+   Protects information from tampering or unauthorized changes.
+   - Methods: hashing, digital signatures, file permissions.
+   - Example: Ensuring financial records are not modified by attackers.
+
+3. Availability
+   Ensures systems and data are accessible when needed.
+   Prevents downtime caused by attacks or failures.
+   - Methods: backups, redundancy, patching, DDoS protection.
+   - Example: Keeping a website online during high traffic or attacks.
+
+MITRE ATT&CK
+
+MITRE ATT&CK is a framework of attacker tactics and techniques.
+Example techniques: phishing, credential dumping, privilege escalation.
+
+MITRE ATT&CK is a global framework that documents real attacker tactics and techniques.
+It helps cybersecurity analysts understand how attackers break into systems and move inside networks.
+
+Tactics (attacker goals):
+- Initial Access
+- Execution
+- Persistence
+- Privilege Escalation
+- Defense Evasion
+- Credential Access
+- Lateral Movement
+- Exfiltration
+
+Techniques (attacker methods):
+- Phishing
+- Brute force
+- Credential dumping
+- Exploiting vulnerabilities
+- Using stolen passwords
+
+Example:
+Tactic: Initial Access
+Technique: Phishing (T1566)
+Attackers send fake emails to steal credentials.
+
+MITRE ATT&CK is important because it teaches how attackers behave in real-world breaches.
+
+
+Case Study  (Uber 2022)
+
+Breach Name: Uber 2022
+What happened: Hacker gained access through MFA fatigue attack.
+Root cause: Weak internal security awareness.
+Attacker method: Social engineering + stolen credentials.
+Impact: Access to internal systems.
+Prevention: Strong MFA, employee training.
+
+Attack Vectors
+
+Phishing: Fake emails tricking users.
+Weak Passwords: Easy to guess or reused passwords.
+Misconfigurations: Incorrect settings exposing systems.
+Social Engineering: Manipulating humans to gain access.
+Unpatched Systems: Old software with vulnerabilities.
+
+
+
+
